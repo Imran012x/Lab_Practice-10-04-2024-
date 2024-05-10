@@ -32,7 +32,6 @@ public class MainActivity2 extends AppCompatActivity {
         activity2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Create an explicit intent to start SecondActivity
                 Intent i = new Intent(MainActivity2.this,MainActivity3.class);
                 startActivity(i);
             }
